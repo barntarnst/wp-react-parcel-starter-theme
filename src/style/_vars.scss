@@ -1,0 +1,23 @@
+//  Colors
+$regtext: rgba(58, 56, 55, 1);
+$textred: rgba(183, 49, 44, 1);
+$textbeige: rgba(213, 186, 140, 1);
+$textlight: #aca199;
+//  Paddings & margins
+$sans: karla;
+$serif: 'Times New Roman';
+$regPadding: 50px;
+$redGradient: linear-gradient(
+  120deg,
+  rgba(183, 49, 44, 1) 0%,
+  rgba(183, 49, 44, 0.8) 56%,
+  rgba(183, 49, 44, 0.5) 100%
+);
+//  e g: @media #{$ipads} { ... }
+$mobile-s: 'only screen and (max-width: 320px)';
+$mobile: 'only screen and (max-width: 440px)';
+$tablet: 'only screen and (max-width: 768px)';
+$laptop_s: 'only screen and (max-width: 1124px)';
+$laptop: 'only screen and (max-width: 1260px)';
+$laptop_l: 'only screen and (max-width: 2559px) and (min-height: 1024px)';
+$four_k: 'screen and (min-width: 2560px)';

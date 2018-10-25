@@ -1,0 +1,54 @@
+{
+  "name": "masterhuset",
+  "version": "1.0.0",
+  "description": "Website for Mästerhuset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/js/index.js --public-url /wp-content/themes/masterhuset/dist",
+    "watch": "parcel watch ./src/js/index.js --public-url /wp-content/themes/masterhuset/dist",
+    "pretti": "prettier --single-quote --no-semi --write ./src/js/**/**/*",
+    "prettify": "prettier --write",
+    "lint:staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add --force"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add --force"
+    ]
+  },
+  "pre-commit": "lint:staged",
+  "keywords": [
+    "parcel",
+    "react",
+    "wordpress"
+  ],
+  "author": "Accomplice AB",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "parcel-bundler": "^1.10.3",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.14.3",
+    "sass": "^1.14.3"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "google-map-react": "^1.0.9",
+    "react": "^16.6.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-burgers": "^1.1.1",
+    "react-dom": "^16.6.0",
+    "react-images": "^0.5.19",
+    "react-photo-gallery": "^6.2.1",
+    "react-swipe": "^5.1.1",
+    "styled-jsx": "^2.2.7",
+    "swipe-js-iso": "^2.0.4"
+  }
+}
