@@ -1,28 +1,15 @@
 {
-  "name": "masterhuset",
+  "name": "wp-react-parcel-starter-theme",
   "version": "1.0.0",
-  "description": "Website for Mästerhuset",
+  "description": "Wordpress starter theme with React and Parcel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/js/index.js --public-url /wp-content/themes/masterhuset/dist",
     "watch": "parcel watch ./src/js/index.js --public-url /wp-content/themes/masterhuset/dist",
-    "pretti": "prettier --single-quote --no-semi --write ./src/js/**/**/*",
-    "prettify": "prettier --write",
-    "lint:staged": "lint-staged"
+    "pretti": "prettier --single-quote --no-semi --write ./src/js/**/**/*"
   },
-  "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "git add --force"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add --force"
-    ]
-  },
-  "pre-commit": "lint:staged",
   "keywords": [
     "parcel",
     "react",
@@ -34,7 +21,6 @@
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "parcel-bundler": "^1.10.3",
-    "pre-commit": "^1.2.2",
     "prettier": "^1.14.3",
     "sass": "^1.14.3"
   },
