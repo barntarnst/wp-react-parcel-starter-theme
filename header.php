@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<script>
-		window.postData = <?php echo \WP_REACT_PARCEL_STARTER\printJsonPost(); ?>;
+		//  window.postData = <?php //  echo \WP_REACT_PARCEL_STARTER\printJsonPost(); ?>;
 	</script>
 	<header id="masthead" class="site-header content-container">
 		<a href="/" class="site-branding">
