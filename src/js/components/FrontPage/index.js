@@ -7,10 +7,9 @@ export default class FrontPage extends React.Component {
   componentDidMount() {}
   render() {
     const content = this.props.content
+
     return (
-      <div className="frontpage-container">
-        This is the front-page
-      </div>
+      <div className="frontpage-container">This is the front-page!! yes</div>
     )
   }
 }
