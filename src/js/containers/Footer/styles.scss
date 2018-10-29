@@ -1,0 +1,29 @@
+.footer-container {
+  background-color: #114232;
+  height: fit-content;
+  padding: 30px;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+
+  width: 80%;
+  margin: auto;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: #797e7c;
+}
+
+.self-center {
+  align-self: center;
+}

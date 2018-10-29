@@ -20,10 +20,10 @@
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
-    "eslint": "^5.7.0",
+    "eslint": "^5.8.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "husky": "^1.1.2",
@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
+    "containers": "0.0.1",
     "google-map-react": "^1.0.9",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
